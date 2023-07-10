@@ -1,9 +1,27 @@
-
-
-p {
-  color: red;
+.DiaryEditor{
+  border: 1px solid gray;
+  text-align:center;
+  padding:20px;
 }
 
-#bold {
-  color: green;
+.DiaryEditor input, textarea {
+  margin-bottom : 20px;
+  width: 500px;
+  padding: 10px;
+}
+
+.DiaryEditor textarea {
+  height: 150px;
+}
+
+.DiaryEditor select {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.DiaryEditor button {
+  width: 500px;
+  padding: 10px;
+  cursor: pointer;
 }
